@@ -11,3 +11,4 @@ To use:
 - Import database from the file markfed.sql
 - Download /dist folder
 - Run CCMSPB.jar
+- If you need to use a remote database, update the IP in /src/ccmspb/DatabaseHandling.java, compile the entire code and generate the JAR file again
