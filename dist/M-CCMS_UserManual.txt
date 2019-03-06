@@ -1,0 +1,89 @@
+============================================================================================================================================================
+USER MANUAL
+============================================================================================================================================================
+This is the User Manual for M-CCMS 2.0 Desktop App (which stands for MarkFed - Court Case Monitoring System version 2.0)
+
+
+BASIS OF DEVELOPEMENT:
+============================================================================================================================================================
+This app has been designed on the basis that every case has a unique File Number; no two cases can have the same File Number. The application may fail to work as desired if this condition is not met.
+
+
+PREREQUISITES:
+============================================================================================================================================================
+	-	Every system must be connected to the database
+	-	Every system  must have an internet connection for the E-Mail functions to work
+	-	Every user must have a G-Mail account for the E-Mail functions to work
+
+
+FUNCTIONS:
+============================================================================================================================================================
+The functions performed by this application are:
+	-	Insert a new case
+	-	Update an existing case
+	-	Make an appeal for an existing case
+	-	Get Parameterized Reports
+	-	Generate Report for each case
+	-	Generate notifications for cases with nearing Next Hearing Date
+	-	General information about Cases entered
+	-	Send E-Mail to lawyers, colleagues, etc.
+	-	Administration
+
+Every user will have a Username and Password which would be used to log in to the application.
+After a successful login, the main page would open from where the above given functions can be performed.
+
+Insert a new Case:
+============================================================================================================================================================
+-Click on 'Operations' menu in the top-left corner of the screen and select 'Case Details' menu item.
+-In the 'Case Details' panel, enter the 'File Number', select 'Appeal Number' as '0' and click 'Search'.
+-If the File Number doesn't exist, a pop-up would tell you that and a new entry for the case would be created and three new tabs would open up at the bottom.
+-You can also add new court to the database; do this by clicking 'Add Court' button, similarly you have 'Add Lawyer' and 'Add Location'
+-Fill all the data, the entry for the case would not be made until all the text fields are filled.
+-You can also upload files in the 'Add Petitioner/Respondent Data'; for multiple files, copy all the in new zipped folder and upload that ZIPPED folder.
+-After filling all the data, click the 'Save' button. After successful insertion of data, a pop-up menu with the message 'File Number added' would appear.
+
+Update an existing Case:
+============================================================================================================================================================
+-Click on 'Operations' menu in the top-left corner of the screen and select 'Case Details' menu item.
+-In the 'Case Details' panel, enter the 'File Number' and click 'Search'.
+-If the File Number already exists, a pop-up would tell you that and the data corresponding to it would be fetched from the database and filled in the text fields and Petitioner and Respondent files would be downloaded in the 'Downloads' folder of the system.
+-Fill all the data that needs updating, the entry for the case would not be made if any of the text fields is empty.
+-You can also upload PDF files in the 'Add Petitioner/Respondent Data'; for multiple files, copy all the in new zipped folder and upload that ZIPPED folder.
+-After filling all the data, click the 'Update' button. After successful updating of data, a pop-up menu with the message 'File Number updated' would appear.
+
+Get Parameterized Reports:
+============================================================================================================================================================
+-Click on the 'Report' menu and 'Parameterized Report' menu item and the Parameterized Report panel would appear.
+-You can generate Report Table on the basis of Court, File Number and Case Number, Lawyer, Location and Next Hearing Date.
+-Select the desired Option, fill the required data and press 'Submit' button.
+-The report table, filtered by your selection, would be generated.
+
+Generate Report for each Case:
+============================================================================================================================================================
+-You can also generate report for a specific File Number; this is done through the Parameterized Report table.
+-In the table, select the required File Number and click the 'Generate Report' button.
+-The report would be downloaded in your Downloads folder.
+
+Generate notifications for cases with nearing Next Hearing Date:
+============================================================================================================================================================
+-On the right-side of the application screen, you can see the 'NOTIFICATION CENTER' and 'Next Day', 'Seven days' and 'Fifteen Days' button.
+-Click the button and a table of cases with Next Hearing Date within the selected number of days would be visible.
+
+General information about Cases entered:
+============================================================================================================================================================
+-You can view general statistics of the Cases on the top-left side of the Application screen, under the title 'Summary of Cases'.
+-Click the 'Refresh' button and you'll get information about 'Total Cases Entered', 'Total Pending Cases' and 'Total Disposed off Cases'.
+
+Send E-Mail:
+============================================================================================================================================================
+-You can also send E-Mail through this application; the E-Mail panel is on the bottom-left side of the screen under the title 'Send E-Mail'.
+-Enter the required data in all the fields and click the 'Send' button.
+-E-Mail would not be sent until all the corresponding text fields are filled.
+
+Administration:
+============================================================================================================================================================
+-There are two types of users: 'Administrator' and 'Operator'.
+-The Operator can only change its own password.
+-The Administrator can add new users and change its own password as well as passwords of other users.
+-This can be accessed through the 'Administration' menu.
+-The menu has menu items 'User Management' and 'Change Password' for Administrators and only 'Change Password' for Operators.
